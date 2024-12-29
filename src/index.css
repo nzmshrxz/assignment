@@ -1,0 +1,38 @@
+.toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  background-color: #f9f9f9; /* Light background for the toolbar */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.toolbar button {
+  background-color: #ffffff; /* White background */
+  color: #333; /* Dark text for readability */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 8px 12px; /* Padding for a comfortable size */
+  font-size: 14px; /* Adjust font size */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.toolbar button:hover {
+  background-color: #f0f0f0; /* Slightly darker background on hover */
+  border-color: #ccc; /* Darker border on hover */
+}
+
+.toolbar button.is-active {
+  background-color: #007BFF; /* Highlight active button with a primary color */
+  color: #fff; /* White text for contrast */
+  border-color: #0056b3; /* Darker border for active state */
+}
+
+.toolbar button:disabled {
+  background-color: #e9ecef; /* Disabled state color */
+  color: #adb5bd; /* Subtle text color for disabled */
+  cursor: not-allowed; /* Disabled cursor */
+  border-color: #ced4da; /* Disabled border */
+}
